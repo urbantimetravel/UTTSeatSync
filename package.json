@@ -1,0 +1,18 @@
+{
+  "name": "com.urbantimetravel.uttseatsync",
+  "version": "1.0.0",
+  "displayName": "UTT SeatSync",
+  "description": "This plugin generically generates seats with characters and assigns a QR code to each seat. This QR code can be scanned using VR glasses and the character on the assigned seat is then activated. Once activated, the VR camera rotations are transferred to the character's head. When multiple VR glasses scan an assigned QR code, the users can see the other VR users sitting next to them and recognize which direction the character is currently facing based on the head rotation of the respective character.",
+  "unity": "2020.2",
+  "keywords": [
+    "tools",
+    "VR",
+    "QR",
+    "Seat"
+  ],
+  "author": {
+    "name": "Urban Timetravel",
+    "email": "alexander.jost@urbantimetravel.com",
+    "url": "https://urbantimetravel.com"
+  }
+}
