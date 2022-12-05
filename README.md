@@ -25,3 +25,5 @@ When the QR code of a seat is scanned, the VR glasses are placed on this seat wi
 # Examples
 
 In the SampleScene is an example how to use it.
+
+In the example scene the Pico SDK of the VR glasses "Pico G2 4K" was used, the Pvr_UnitySDK Prefab of the Pico glasses can be replaced by any other camera. 
