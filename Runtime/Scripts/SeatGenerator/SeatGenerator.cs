@@ -10,6 +10,9 @@ using UnityEngine.UI;
 namespace UrbanTimetravel.SeatSync
 {
     [RequireComponent(typeof(QrGenerator))]
+    [RequireComponent(typeof(QrScanner))]
+    [RequireComponent(typeof(SpawnCharacterOnSeat))]
+    [RequireComponent(typeof(ControlHeadRotation))]
     public class SeatGenerator : MonoBehaviour
     {
         [Header("Player")]

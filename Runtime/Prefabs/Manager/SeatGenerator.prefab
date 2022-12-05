@@ -1,0 +1,120 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4661514156864755838
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4661514156864755836}
+  - component: {fileID: 4661514156864755832}
+  - component: {fileID: 4661514156864755835}
+  - component: {fileID: 4661514156864755834}
+  - component: {fileID: 4661514156864755837}
+  - component: {fileID: 4661514156864755839}
+  m_Layer: 0
+  m_Name: SeatGenerator
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4661514156864755836
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4661514156864755838}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 1.6, y: 4.370389, z: -1.94}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4661514156864755832
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4661514156864755838}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c483279358b16b4fb331b4c97446870, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &4661514156864755835
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4661514156864755838}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5944753395192494e9ab898948af40b3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  beepSound: {fileID: 0}
+--- !u!114 &4661514156864755834
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4661514156864755838}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67f2ed6da5eb86a4ba5d553199a0c29d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &4661514156864755837
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4661514156864755838}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2f9d6b69863c0b40ba920e3c990eb41, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  controlHead: 1
+  target: {fileID: 0}
+--- !u!114 &4661514156864755839
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4661514156864755838}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c1cfa718625e6d43b1fd1cd5b29e3c4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_PlayerCamera: {fileID: 0}
+  m_SeatMaxRow: 2
+  m_SeatMaxColumn: 2
+  m_Padding: 1.5
+  m_SeatHeight: 0.25
+  m_CoachPrefab: {fileID: 652728763455058189, guid: 14ffe1c084b6ab74fa3ce46ba6d3e891, type: 3}
+  m_SeatPrefab: {fileID: 5539297226823743257, guid: 02cfa4ff1b0719c4abfabb21ccb0dbd2, type: 3}
+  m_CharacterPrefab: {fileID: 8745026660967729740, guid: 48caae9ced413fd4e84acc3f76ae2402, type: 3}
+  m_QrCodes:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  m_AllPlayers:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  m_Coach: {fileID: 0}
+  m_PlayerValue: 0

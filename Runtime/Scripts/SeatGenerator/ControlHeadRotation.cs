@@ -10,7 +10,7 @@ namespace UrbanTimetravel.SeatSync
     public class ControlHeadRotation : MonoBehaviour
     {
         public bool controlHead = true;
-        public Transform target;
+        [HideInInspector] public Transform target;
 
         void Update()
         {
