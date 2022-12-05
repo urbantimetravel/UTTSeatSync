@@ -19,10 +19,10 @@ namespace UrbanTimetravel.SeatSync
         [SerializeField] GameObject m_PlayerCamera;
 
         [Header("Settings")]
-        [SerializeField] int m_SeatMaxRow;
-        [SerializeField] int m_SeatMaxColumn;
-        [SerializeField] float m_Padding;
-        [SerializeField] float m_SeatHeight;
+        [SerializeField] int m_SeatMaxRow = 2;
+        [SerializeField] int m_SeatMaxColumn = 2;
+        [SerializeField] float m_Padding = 1.5f;
+        [SerializeField] float m_SeatHeight = 0.25f;
 
         [Header("Prefab Objects")]
         [SerializeField] GameObject m_CoachPrefab;
