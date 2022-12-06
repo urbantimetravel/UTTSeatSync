@@ -8,19 +8,27 @@ An MQTT broker is required for use. The VR glasses communicate via this broker.
 
 # Add package
 
-Add the package to your project via the Unity Package Manager using "Add package from git url...".
+Download the latest release package and import it into Unity.
 
-# Getting Started
+# Folder structur
 
-In the Prefab/Manager are the two managers that are needed. MQTT connects to the MQTT broker and manages the communication between the glasses.
+In the UTTSeatSync/Prefab/Manager are the two managers that are needed. MQTT connects to the MQTT broker and manages the communication between the glasses.
 SeatGenerator allows the creation of the seats and the corresponding QR codes.
+
+# Seat Generator
 
 After the Seat Max Row and Seat Max Column have been defined in the Seat Generator, it is possible to create the seats and QR Codes via the button "Create Seats".
 After that the VR Camera has to be added to the Seat Generator at PlayerCamera. This must also be marked as the Main Camera.
 
+When the QR code of a seat is scanned, the VR glasses are placed on this seat with its character.
+
+# MQTT
+
 For MQTT, the IP of the MQTT broker must be specified.
 
-When the QR code of a seat is scanned, the VR glasses are placed on this seat with its character.
+# Character requirements
+
+The character in the example scene can be replaced by any other character. It is only important that this character has a head, on which the script "Catch Head Rotation" must be placed.
 
 # Examples
 
