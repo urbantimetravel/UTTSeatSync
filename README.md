@@ -45,6 +45,7 @@ The character in the example scene can be replaced by any other character. It is
 In the SampleScene is an example how to use it.
 
 In the example scene the Pico SDK of the VR glasses "Pico G2 4K" was used, the Pvr_UnitySDK Prefab of the Pico glasses can be replaced by any other camera. 
+
 Pico SDK Source: https://github.com/picoxr/support
 <p align="center">
   <img width="400" height="400" src="https://user-images.githubusercontent.com/40402725/205893279-dea7d3ec-f44a-4afa-83a6-98b97b88d218.png">
