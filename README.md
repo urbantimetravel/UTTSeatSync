@@ -1,6 +1,8 @@
 # Urban TimeTravel - SeatSync
 
-![image](https://user-images.githubusercontent.com/40402725/205653049-2c3112a4-d7de-4904-abec-c038f3ad95ea.png)
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/40402725/205653049-2c3112a4-d7de-4904-abec-c038f3ad95ea.png">
+</p>
 
 This plugin generically generates seats with characters and assigns a QR code to each seat. This QR code can be scanned using VR glasses and the character on the assigned seat is then activated. Once activated, the VR camera rotations are transferred to the character's head. When multiple VR glasses scan an assigned QR code, the users can see the other VR users sitting next to them and recognize which direction the character is currently facing based on the head rotation of the respective character.
 
@@ -41,3 +43,7 @@ The character in the example scene can be replaced by any other character. It is
 In the SampleScene is an example how to use it.
 
 In the example scene the Pico SDK of the VR glasses "Pico G2 4K" was used, the Pvr_UnitySDK Prefab of the Pico glasses can be replaced by any other camera. 
+
+<p align="center">
+  <img width="400" height="400" src="https://user-images.githubusercontent.com/40402725/205893279-dea7d3ec-f44a-4afa-83a6-98b97b88d218.png">
+</p>
