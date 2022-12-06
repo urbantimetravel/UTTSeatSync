@@ -24,6 +24,10 @@ The generated QR codes are saved in the "QrCodes" folder.
 
 When the QR code of a seat is scanned, the VR glasses are placed on this seat with its character.
 
+# QR code generator
+
+ZXing is used to generate and read the QR codes. More detailed info about it can be found here: https://github.com/micjahn/ZXing.Net
+
 # MQTT
 
 For MQTT, the IP of the MQTT broker must be specified.
