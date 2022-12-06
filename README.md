@@ -20,11 +20,15 @@ SeatGenerator allows the creation of the seats and the corresponding QR codes.
 After the Seat Max Row and Seat Max Column have been defined in the Seat Generator, it is possible to create the seats and QR Codes via the button "Create Seats".
 After that the VR Camera has to be added to the Seat Generator at PlayerCamera. This must also be marked as the Main Camera.
 
+The generated QR codes are saved in the "QrCodes" folder.
+
 When the QR code of a seat is scanned, the VR glasses are placed on this seat with its character.
 
 # MQTT
 
 For MQTT, the IP of the MQTT broker must be specified.
+
+When starting the application, the MQTT client first tries to establish a connection to the MQTT broker, only when this succeeds does the application work.
 
 A more detailed explanation of the MQTT scripts can be found here: https://github.com/gpvigano/M2MqttUnity
 
