@@ -26,6 +26,8 @@ When the QR code of a seat is scanned, the VR glasses are placed on this seat wi
 
 For MQTT, the IP of the MQTT broker must be specified.
 
+A more detailed explanation of the MQTT scripts can be found here: https://github.com/gpvigano/M2MqttUnity
+
 # Character requirements
 
 The character in the example scene can be replaced by any other character. It is only important that this character has a head, on which the script "Catch Head Rotation" must be placed.
